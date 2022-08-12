@@ -91,7 +91,7 @@ An open source iOS framework for GPU-based image and video processing. This proj
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "framework/Source/**/*.{swift}"
+  spec.source_files  = "framework/Source/**/*.{swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "framework/**/*.h"
@@ -122,7 +122,7 @@ An open source iOS framework for GPU-based image and video processing. This proj
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "framework/Build/GPUImage.xcframework"
+  # spec.vendored_frameworks = "framework/GPUImage.xcframework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
