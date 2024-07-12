@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GPUImage3"
-  spec.version      = "0.0.6"
-  spec.summary      = "An open source iOS framework for GPU-based image and video processing."
+  spec.version      = "0.0.7"
+  spec.summary      = "An open source macOS/iOS framework for GPU-based image and video processing."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-An open source iOS framework for GPU-based image and video processing. This project is an open source project and has been used for development purposes.
+An open source macOS/iOS framework for GPU-based image and video processing. This project is an open source project and has been used for development purposes.
                    DESC
 
   spec.homepage     = "https://github.com/mkzii/GPUImage3.git"
@@ -65,8 +65,8 @@ An open source iOS framework for GPU-based image and video processing. This proj
   #
 
   # spec.platform     = :ios, "11.00"
-  spec.platform     = :osx, "10.11"
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :osx, "10.13"
+  spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "11.0"
