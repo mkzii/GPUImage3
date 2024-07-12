@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GPUImage3"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "An open source iOS framework for GPU-based image and video processing."
 
   # This description is used to generate tags and improve search results.
@@ -65,12 +65,12 @@ An open source iOS framework for GPU-based image and video processing. This proj
   #
 
   spec.platform     = :ios
-  spec.platform     = :osx
+  s.platform     = :osx, '10.11'
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   spec.ios.deployment_target = "11.0"
-  spec.osx.deployment_target = "10.11"
+  # spec.osx.deployment_target = "10.11"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   spec.swift_version = "5.0"
