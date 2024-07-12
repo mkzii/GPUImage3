@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 An open source iOS framework for GPU-based image and video processing. This project is an open source project and has been used for development purposes.
                    DESC
 
-  spec.homepage     = "https://github.com/anoop-moothedath/GPUImage3"
+  spec.homepage     = "https://github.com/mkzii/GPUImage3.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ An open source iOS framework for GPU-based image and video processing. This proj
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/anoop-moothedath/GPUImage3.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/mkzii/GPUImage3.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
